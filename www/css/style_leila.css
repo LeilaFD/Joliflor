@@ -1,0 +1,206 @@
+/*
+	gris foncé: #606060;
+	gris clair : #A0A0A0;
+	gris tres clair :#E0E0E0;
+	vert : #009900;
+	framboise: #CC0066;
+*/
+
+
+body
+{
+	font-family: "Century Gothic", Arial, serif;
+	font-size: 0.8em;
+	margin:0;
+}
+
+#cont_body
+{
+	min-width: 900px;
+	width: 70%;
+	margin: auto;
+}
+
+/* header */
+
+#cont_head
+{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1.2em;
+	color: #606060;
+	border-bottom: 1px #E0E0E0 solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#cont_head .elt:nth-child(1)
+{
+	flex: 7;
+}
+
+#cont_head .elt:nth-child(2)
+{
+	flex: 1;
+}
+
+#nom_enseigne
+{
+	font-family: 'Finger Paint', cursive,"Century Gothic", Arial, serif;
+	font-size: 2.5em;
+	color: #009900;
+	padding-right: 20px;
+}
+
+#jeu_mot
+{
+	color: #009900;
+}
+
+/* nav */
+#cont_nav
+{
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.2em;
+	border-bottom: 1px #E0E0E0 solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#promo
+{
+	color: #CC0066;
+}
+
+
+input[type=search]
+{
+	height: 24px;
+	border: none;
+}
+
+input[type=submit]
+{
+	background: url(../src/images/search.png) no-repeat;
+	border: none;
+	height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+form
+{
+	border: 1px #E0E0E0 solid;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
+/* liens */
+a
+{
+	color: #606060;
+	text-decoration: none;
+}
+
+
+a:visited
+{
+	color: #606060;
+}
+
+a:hover
+{
+	color: #009900;
+}
+
+/* main */
+#cont_main
+{
+	height: 800px;
+}
+
+/* footer */
+#cont_foo
+{
+
+}
+
+#avantages
+{
+	display: flex;
+	justify-content: space-around;
+	background: #808080;
+	color: white;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#infos
+{
+	display: flex;
+	justify-content: center;
+	background: #808080;
+	color: white;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 1px #A0A0A0 solid;	
+}
+
+#infos .elt
+{
+	padding-right: 10%;
+	border-left: 1px #A0A0A0 solid;
+	padding-left: 20px;
+}
+
+.categorie
+{
+	margin-top: 0;
+}
+
+img[alt=support], img[alt=mail]
+{
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+img[alt=mail]
+{
+	float: left;
+	margin-right: 10px;
+}
+
+#cgv
+{
+	display: flex;
+	justify-content: center;
+	background: #606060;
+	color: white;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#cgv img
+{
+	margin-left: 10px;
+
+}
+
+
+#cgv .elt:nth-child(2)
+{
+	padding-left: 10%;
+
+}

@@ -1,0 +1,10 @@
+#media_images{
+  margin-right:auto;
+  float: left;
+  display: inline-block;
+}
+
+#informations_generales{
+  display: inline-block;
+  float:right;
+}

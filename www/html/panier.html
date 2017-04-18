@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/style_marouane.css" />
+    <title>Votre panier</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <nav id="retour_achats">
+      <h3><a href="../index.html">< Continuer mes achats</a></h3>
+    </nav>
+    <main id="panier">
+
+      <header id="nom_commande">
+        <h2>Mon panier</h2>
+      </header>
+
+      <section id="recapitulatif">
+        <div id="description">
+          <table>
+            <tr>
+              <th>Designation</th> <th>Quantité</th> <th>Prix</th>
+            </tr>
+            <tr>
+              <td><figure>
+                        <img src="../src/images/image_principale.png" alt="Produit acheté" width="100" />
+                        <figcaption>Nom du produit</figcaption>
+                      </figure>
+                      <a href="panier_vide.html" id="vider_panier"><h3>Retirer du panier</h3></a>
+             </td>
+             <td><form action="page.php">
+                      <input type="number" min="1" max="10" name="quantite" id="quantite">
+                    </form>
+             </td>
+             <td><div id="prix">100,00€</div></td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="detail_paiement">
+          <table>
+            <tr>
+              <td><h3 id="livraison">Livraison gratuite : envoi Colissimo </h3></td>
+            </tr>
+            <tr>
+              <td><h3 id="prix_total">Prix total : 100,00€</h3></td>
+            </tr>
+            <tr>
+              <td><p>Valider la commande</p>
+                     <p><figure id="modes_paiement">
+                              <img src="../src/images/paiment_cb_visa.jpeg" alt="Visa" />
+                              <img src="../src/images/paiment_cb_mastercard.jpeg" alt="Mastercard" />
+                              <img src="../src/images/paiment_cb_aexpress.jpeg" alt="American Express" />
+                              <figcaption>Modes de paiement</figcaption>
+                            </figure>  </p></td>
+            </tr>
+          </table>
+        </div>
+
+      </section>
+
+    </main>
+    <!--FOOTER-->
+  </body>
+</html>

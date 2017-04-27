@@ -1,0 +1,97 @@
+/***************** header ********************/
+
+#cont_head{
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px #E0E0E0 solid;
+
+	font-size: 1.2em;
+	color: #606060;
+	text-align: center;
+}
+
+#cont_head .elt{ /* dans les elt plutot que le cont pour les effets de lien */
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#cont_head .elt:nth-child(1){
+	flex: 7;
+}
+#cont_head .elt:nth-child(2){
+	flex: 1;
+}
+
+#nom_enseigne{
+	font-family: 'Finger Paint', cursive,"Century Gothic", Arial, serif;
+	font-size: 2.5em;
+	color: #009900;
+	padding-right: 20px;
+}
+
+#jeu_mot{
+	color: #009900;
+}
+
+/* liens header */
+header a, header a:visited{ /* ne change pas */
+	color: #606060;
+	text-decoration: none;
+}
+#cont_head>a:hover{ /* a reporter en effet permanent sur la page panier */
+	color: black;
+	border-bottom: 2px #996633 solid;
+}
+
+/************* nav **********************/
+#cont_nav{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px #E0E0E0 solid;
+	font-size: 1.2em;
+	margin-bottom: 50px;
+}
+
+#cont_nav .elt{	/* dans les elt plutot que le cont pour les effets de lien */
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* liens nav */
+nav a, nav a:visited{ /* ne change pas */
+	color: #606060;
+	text-decoration: none;
+}
+nav a:hover{
+	color: black;
+	border-bottom: 2px #996633 solid;
+}
+
+#promo{
+	color: #CC0066;
+}
+
+/* harmonisation du champ de recherche */
+input[type=submit]{
+	background: url(../src/images/search.png) no-repeat; /* 24x24 px */
+	height: 24px;
+    width: 24px;
+	border: none;
+	cursor: pointer;
+}
+input[type=search]{
+	height: 24px; /*alignement icone */
+	border: none;
+	background-color: #DBEEDB;
+}
+form{
+	border: 1px #E0E0E0 solid;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #DBEEDB;
+}
+form:hover{
+	border: 1px #606060 solid;
+}

@@ -10,14 +10,14 @@
 
 
 body{
-	font-family: "Century Gothic", Arial, serif;	
-	font-size: 0.8em;			
+	font-family: "Century Gothic", Arial, serif;
+	font-size: 0.8em;
 	margin:0;
 }
 
 /* confort de lecture */
 #cont_body{
-	min-width: 900px; 
+	min-width: 900px;
 	width: 70%;
 	margin: auto;
 }
@@ -97,7 +97,7 @@ nav a:hover{
 /* harmonisation du champ de recherche */
 input[type=submit]{
 	background: url(../src/images/search.png) no-repeat; /* 24x24 px */
-	height: 24px; 
+	height: 24px;
     width: 24px;
 	border: none;
 	cursor: pointer;
@@ -128,7 +128,7 @@ form:hover{
 img[alt=menthe_msg]{
 	/* comportement responsive */
 	max-width: 100%;
-	height: auto;	
+	height: auto;
 }
 
 #promos{
@@ -173,7 +173,7 @@ img[alt=menthe_msg]{
 /***************** footer *********************/
 
 #cont_foo{
-	min-width: 900px; 
+	min-width: 900px;
 	margin: auto;
 }
 
@@ -206,7 +206,7 @@ img[alt=menthe_msg]{
 #infos .elt{
 	padding-left: 20px;
 	padding-right: 10%;
-	border-left: 1px #A0A0A0 solid;	
+	border-left: 1px #A0A0A0 solid;
 }
 
 .categorie{
@@ -258,32 +258,32 @@ footer a:hover{
 
 /******************** responsive ********************/
 @media all and (max-width: 1788px){
-	#cont_body{ 
+	#cont_body{
 		width: 75%;
 	}
 }
 @media all and (max-width: 1670px){
-	#cont_body{ 
+	#cont_body{
 		width: 80%;
 	}
 }
 @media all and (max-width: 1566px){
-	#cont_body{ 
+	#cont_body{
 		width: 85%;
 	}
 }
 @media all and (max-width: 1474px){
-	#cont_body{ 
+	#cont_body{
 		width: 90%;
 	}
 }
 @media all and (max-width: 1392px){
-	#cont_body{ 
+	#cont_body{
 		width: 95%;
 	}
 }
 @media all and (max-width: 1318px){
-	#cont_body{ 
+	#cont_body{
 		width: 75%;
 	}
 
@@ -352,7 +352,7 @@ footer a:hover{
 	}
 }
 @media all and (max-width: 922px){
-	#cont_body{ 
+	#cont_body{
 		width: 90%;
 		min-width: 320px;
 	}
@@ -416,7 +416,7 @@ footer a:hover{
 		order: 17;
 	}
 	#cont_foo{
-		min-width: 320px; 
+		min-width: 320px;
 	}
 }
 @media all and (max-width: 728px){

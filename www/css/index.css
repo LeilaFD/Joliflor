@@ -9,6 +9,7 @@
 */
 
 
+<<<<<<< HEAD:www/css/style_leila.css
 body{
 	font-family: "Century Gothic", Arial, serif;
 	font-size: 0.8em;
@@ -119,11 +120,9 @@ form:hover{
 	border: 1px #606060 solid;
 }
 
+=======
+>>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 /********************* main ************************/
-#cont_main{ /* #cont_foo en bas */
-	min-height: 800px;
-}
-
 
 img[alt=menthe_msg]{
 	/* comportement responsive */
@@ -170,6 +169,7 @@ img[alt=menthe_msg]{
 	color: #606060;
 }
 
+<<<<<<< HEAD:www/css/style_leila.css
 /***************** footer *********************/
 
 #cont_foo{
@@ -245,18 +245,13 @@ img[alt=mail]{
 	padding-left: 10%;
 
 }
+=======
+>>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 
-/* liens footer */
-footer a, footer a:visited{ /* ne change pas */
-	color: white;
-	text-decoration: none;
-}
-footer a:hover{
-	color: black;
 
-}
 
 /******************** responsive ********************/
+<<<<<<< HEAD:www/css/style_leila.css
 @media all and (max-width: 1788px){
 	#cont_body{
 		width: 75%;
@@ -293,7 +288,10 @@ footer a:hover{
 	#cont_head .elt:nth-child(2){
 		flex: 1;
 	}
+=======
+>>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 
+@media all and (max-width: 1318px){
 	#promos{
 		margin-top: 50px;
 	}
@@ -351,6 +349,7 @@ footer a:hover{
 		order: 17;
 	}
 }
+<<<<<<< HEAD:www/css/style_leila.css
 @media all and (max-width: 922px){
 	#cont_body{
 		width: 90%;
@@ -365,7 +364,10 @@ footer a:hover{
 	#cont_nav{
 		flex-wrap: wrap;
 	}
+=======
+>>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 
+@media all and (max-width: 922px){
 	#promos .elt:nth-child(1){
 		order: 2;
 	}
@@ -415,9 +417,12 @@ footer a:hover{
 	#promos .elt:nth-child(17){
 		order: 17;
 	}
+<<<<<<< HEAD:www/css/style_leila.css
 	#cont_foo{
 		min-width: 320px;
 	}
+=======
+>>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 }
 @media all and (max-width: 728px){
 	#promos .elt:nth-child(9){

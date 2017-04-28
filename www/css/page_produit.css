@@ -1,0 +1,100 @@
+/********************Page produit.html********************/
+
+#produit {
+  display: flex;
+  border-top: 1px #E0E0E0 solid;
+  border-bottom: 1px #E0E0E0 solid;
+  justify-content: center;
+}
+
+/**Image produit**/
+
+img[alt="Mentha spicata"]{
+	max-width: 100%;
+	height: auto;
+}
+
+#image_principale {
+  font-style: italic;
+  text-align: center;
+}
+
+/**Description produit**/
+
+.bloc {
+  padding: 2%;
+}
+
+#nom_produit h1 {
+  color: #009900;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+#nom_produit h2 {
+  color: #A0A0A0;
+  font-size: 100%;
+  font-style: italic;
+}
+
+#prix {
+  font-size: 200%;
+  color: #CC0066;
+}
+
+#ajout {
+  margin: 1%;
+  background-color: #DBEEDB;
+  border-radius: 4px;
+  cursor: pointer;
+  width:150px;
+  line-height:30px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+a:visited{
+  color: #606060;
+	text-decoration: none;
+}
+
+#ajout:hover {
+  background-color: #009900;
+  font-weight: bold;
+}
+
+
+/**Avis**/
+
+#appreciations {
+  border-top: 1px #E0E0E0 solid;
+  border-bottom: 1px #E0E0E0 solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#appreciations h1 {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#appreciations h3 {
+  font-size: 120%;
+}
+
+#note{
+  text-align: center;
+}
+
+#avis p{
+  color: #CC0066;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+time {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 50%;
+}

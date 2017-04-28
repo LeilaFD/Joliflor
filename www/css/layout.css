@@ -107,7 +107,7 @@ input[type=search]{
 	border: none;
 	background-color: #DBEEDB;
 }
-form{
+nav form{
 	border: 1px #E0E0E0 solid;
 	border-radius: 10px;
 	padding: 5px;
@@ -115,7 +115,7 @@ form{
 	margin-bottom: 20px;
 	background-color: #DBEEDB;
 }
-form:hover{
+nav form:hover{
 	border: 1px #606060 solid;
 }
 
@@ -265,5 +265,11 @@ footer a:hover{
 	}
 	#cont_foo{
 		min-width: 320px; 
+	}
+}
+
+@media all and (max-width: 514px){
+	#avantages, #infos{
+		flex-wrap: wrap;
 	}
 }

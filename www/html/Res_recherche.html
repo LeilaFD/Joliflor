@@ -2,11 +2,12 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8"/>
+    <meta name="author" content="Leila Fallourd">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/layout.css"/>
-    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/Res_recherche.css"/>
     <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet"> <!-- police "Joliflor" -->
-    <title> Accueil </title>
+    <title> Recherche </title>
   </head>
 	<body>
 	<div id = "cont_body">
@@ -36,7 +37,69 @@
 		</nav>
 
 		<main>
+			<p> Accueil > Recherche > e </p><br/>
 			<div id = "cont_main">
+				<aside>
+					<div id="filtre">
+						<h2> FILTRER PAR : </h2>
+						<h3> PRIX </h3>
+						<input type="checkbox" name="moins20"/> < 20 <br/>
+						<input type="checkbox" name="20a30"/> 20 - 30 <br/>
+						<input type="checkbox" name="30a40"/> 30 - 40 <br/>
+						<input type="checkbox" name="40a50"/> 40 - 50 <br/>
+						<input type="checkbox" name="plus50"/> > 50 <br/>
+						<h3> PERIODE DE PLANTATION </h3>
+						<input type="checkbox" name="printemps"/> Printemps <br/>
+						<input type="checkbox" name="ete"/> Eté <br/>
+						<input type="checkbox" name="automne"/> Automne <br/>
+						<input type="checkbox" name="hiver"/> Hiver <br/>
+						<h3> EXPOSITION </h3>
+						<input type="checkbox" name="Ombre"/> Ombre <br/>
+						<input type="checkbox" name="Soleil"/> Soleil <br/>
+						<input type="checkbox" name="Mi-ombre"/> Mi-ombre <br/>
+					</div>
+				</aside>
+				<div id="recherche">
+					<div><h1> Résultats pour votre recherche : << e >> </h1><br/></div>
+					<div id="affichage">
+						<div><p> 4 articles trouvés </p></div>
+						<div>
+							<form method = "post" action = "">
+			  					<label for="tri"> Trier par : </label>
+			  					<select id="tri" name="tri">
+			  						<option value="pertinence" selected> Pertinence </option>
+			  						<option value="croissant"> Prix croissant </option>
+			  						<option value="decroissant"> Prix décroissant </option>
+			  						<option value="notes"> Meilleures notes </option>
+			  					</select>
+			  				</form>
+		  				</div>
+					</div>
+					<div class="item">
+						<div class="elt"><img src="../src/images/dhalia_mini.png" alt="dhalia"/></div>
+						<div class="elt"><p>DHALIA BICOLORE</p><p>59€</p></div>
+						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
+						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
+					</div>
+					<div class="item">
+						<div class="elt"><img src="../src/images/menthe_mini.png" alt="menthe"/></div>
+						<div class="elt"><p>MENTHE VERTE</p><p>29€</p></div>
+						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
+						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
+					</div>
+					<div class="item">
+						<div class="elt"><img src="../src/images/rosemarie_mini.png" alt="rosemarie"/></div>
+						<div class="elt"><p>ROSEMARIE BLEUE</p><p>45€</p></div>
+						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
+						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
+					</div>
+					<div class="item">
+						<div class="elt"><img src="../src/images/tomates_mini.png" alt="tomates"/></div>
+						<div class="elt"><p>TOMATES CERISES</p><p>29€</p></div>
+						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
+						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
+					</div>
+				</div>
 				
 			</div>
 		</main>

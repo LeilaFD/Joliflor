@@ -8,8 +8,6 @@
 	marron:#996633;
 */
 
-
-<<<<<<< HEAD:www/css/style_leila.css
 body{
 	font-family: "Century Gothic", Arial, serif;
 	font-size: 0.8em;
@@ -120,8 +118,6 @@ form:hover{
 	border: 1px #606060 solid;
 }
 
-=======
->>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 /********************* main ************************/
 
 img[alt=menthe_msg]{
@@ -169,7 +165,6 @@ img[alt=menthe_msg]{
 	color: #606060;
 }
 
-<<<<<<< HEAD:www/css/style_leila.css
 /***************** footer *********************/
 
 #cont_foo{
@@ -245,13 +240,8 @@ img[alt=mail]{
 	padding-left: 10%;
 
 }
-=======
->>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
-
-
 
 /******************** responsive ********************/
-<<<<<<< HEAD:www/css/style_leila.css
 @media all and (max-width: 1788px){
 	#cont_body{
 		width: 75%;
@@ -288,8 +278,6 @@ img[alt=mail]{
 	#cont_head .elt:nth-child(2){
 		flex: 1;
 	}
-=======
->>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 
 @media all and (max-width: 1318px){
 	#promos{
@@ -349,7 +337,7 @@ img[alt=mail]{
 		order: 17;
 	}
 }
-<<<<<<< HEAD:www/css/style_leila.css
+
 @media all and (max-width: 922px){
 	#cont_body{
 		width: 90%;
@@ -364,8 +352,6 @@ img[alt=mail]{
 	#cont_nav{
 		flex-wrap: wrap;
 	}
-=======
->>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
 
 @media all and (max-width: 922px){
 	#promos .elt:nth-child(1){
@@ -417,13 +403,11 @@ img[alt=mail]{
 	#promos .elt:nth-child(17){
 		order: 17;
 	}
-<<<<<<< HEAD:www/css/style_leila.css
+
 	#cont_foo{
 		min-width: 320px;
 	}
-=======
->>>>>>> d3a55dcdaf1b2671113c651bbb226aab00a6131c:www/css/index.css
-}
+
 @media all and (max-width: 728px){
 	#promos .elt:nth-child(9){
 		width: 100%;

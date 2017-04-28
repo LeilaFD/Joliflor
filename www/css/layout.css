@@ -267,3 +267,9 @@ footer a:hover{
 		min-width: 320px; 
 	}
 }
+
+@media all and (max-width: 514px){
+	#avantages, #infos{
+		flex-wrap: wrap;
+	}
+}

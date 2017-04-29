@@ -5,9 +5,9 @@
     <meta name="author" content="Leila Fallourd">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/layout.css"/>
-    <link rel="stylesheet" href="../css/Res_recherche.css"/>
+    <link rel="stylesheet" href="../css/details_techniques.css"/>
     <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet"> <!-- police "Joliflor" -->
-    <title> Recherche </title>
+    <title> Détails techniques </title>
   </head>
 	<body>
 	<div id = "cont_body">
@@ -37,70 +37,32 @@
 		</nav>
 
 		<main>
-			<p> Accueil > Recherche > e </p><br/>
+			<h1> Maquette d'une jardinerie en ligne </h1>
+			<h2> - Détails techniques du projet - </h2><br/>
 			<div id = "cont_main">
-				<aside>
-					<div id="filtre">
-						<h2> FILTRER PAR : </h2>
-						<h3> PRIX </h3>
-						<input type="checkbox" name="moins20"/> &lt; 20 <br/>
-						<input type="checkbox" name="20a30"/> 20 - 30 <br/>
-						<input type="checkbox" name="30a40"/> 30 - 40 <br/>
-						<input type="checkbox" name="40a50"/> 40 - 50 <br/>
-						<input type="checkbox" name="plus50"/> > 50 <br/>
-						<h3> PERIODE DE PLANTATION </h3>
-						<input type="checkbox" name="printemps"/> Printemps <br/>
-						<input type="checkbox" name="ete"/> Eté <br/>
-						<input type="checkbox" name="automne"/> Automne <br/>
-						<input type="checkbox" name="hiver"/> Hiver <br/>
-						<h3> EXPOSITION </h3>
-						<input type="checkbox" name="Ombre"/> Ombre <br/>
-						<input type="checkbox" name="Soleil"/> Soleil <br/>
-						<input type="checkbox" name="Mi-ombre"/> Mi-ombre <br/>
-					</div>
-				</aside>
-				<div id="recherche">
-					<div><h1> Résultats pour votre recherche : &lt;&lt; e >> </h1><br/></div>
-					<div id="affichage">
-						<div><p> 4 articles trouvés </p></div>
-						<div>
-							<form method = "post" action = "Res_recherche.html">
-			  					<label for="tri"> Trier par : </label>
-			  					<select id="tri" name="tri">
-			  						<option value="pertinence" selected> Pertinence </option>
-			  						<option value="croissant"> Prix croissant </option>
-			  						<option value="decroissant"> Prix décroissant </option>
-			  						<option value="notes"> Meilleures notes </option>
-			  					</select>
-			  				</form>
-		  				</div>
-					</div>
-					<div class="item">
-						<div class="elt"><img src="../src/images/dhalia_mini.png" alt="dhalia"/></div>
-						<div class="elt"><p>DHALIA BICOLORE</p><p>59€</p></div>
-						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
-						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
-					</div>
-					<div class="item">
-						<div class="elt"><img src="../src/images/menthe_mini.png" alt="menthe"/></div>
-						<div class="elt"><p>MENTHE VERTE</p><p>29€</p></div>
-						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
-						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
-					</div>
-					<div class="item">
-						<div class="elt"><img src="../src/images/rosemarie_mini.png" alt="rosemarie"/></div>
-						<div class="elt"><p>ROSEMARIE BLEUE</p><p>45€</p></div>
-						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
-						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
-					</div>
-					<div class="item">
-						<div class="elt"><img src="../src/images/tomates_mini.png" alt="tomates"/></div>
-						<div class="elt"><p>TOMATES CERISES</p><p>29€</p></div>
-						<a href="./produit.html"><div class="savoir_plus"> <p>En savoir plus</p> </div></a>
-						<a href="./panier.html" ><div class="ajouter"><img src="../src/images/shop.png" alt="panier" /><br/><p> Ajouter </p></div></a>
-					</div>
-				</div>
+				<h3> Consultation des différentes pages demandées: </h3>
+				<p>La page d'accueil est le point d'entrée du site. On peut y revenir à tout moment en cliquant sur "JOLIFLOR".</p>
+				<p> La page de résultats de recherche est accessible à partir de l'icone loupe du champ de recherche situé en haut des pages. </p>
+				<p> La page de description d'un produit est accessible à partir des boutons "en savoir plus" de la page de résultats de recherche. </p>
+				<p> La page panier est accessible à partir de l'icone panier en haut a droite ou à partir des boutons "ajouter" de la page de résultats de recherche. </p>
+				<p> La page "qui sommes-nous ?" et la page "détails techniques" sont accessible depuis les liens situés dans le footer. </p><br/>
 				
+				<h3> Méthode de travail: </h3>
+				<p> Nous avons commencé par dessiner sur papier ce que nous voulions obtenir avant de commencer à programmer. <br/>
+				Une fois ceci fait nous avons d'abord codé les parties communes à toutes les pages : header, nav, footer accompagné de leur layout.css. <br/>
+				De cette façon nous pouvions ensuite programmer le contenu des différentes pages en partant de la même structure. </p><br/>
+
+				<h3> Mise en page: </h3>
+				<p> Utilisation du positionnement Flexbox. Cette méthode de positionnement apparue récemment permet de placer des blocs (d'où l'utilisation de nombreuses &lt;div>) dans leur "conteneurs" grâce à ses différentes propriétés. </p><br/>
+
+				<h3> Responsivité: </h3>
+				<p> Le comportement responsive des pages a été établi en utilisant les outils de développement des différents navigateurs permettant de simuler des tailles d'appareils de types smartphone ou tablette.<br/>
+				En réduisant progressivement la largeur d'écran on pouvait repérer la taille à partir de laquelle le contenu devenait difficilement lisible. <br/>
+				On posait donc une media query permettant de modifier les marges ou le positionnement des blocs pour rendre le contenu lisible à nouveau. </p><br/>
+
+				<h3> Images: </h3>
+				<p> Les photos du site ont été prises sur pixabay.com. <q> Toutes les images et vidéos de Pixabay sont libres de droit et publiées sous licence Creative Commons CC0. Vous pouvez les télécharger, les modifier, les distribuer et les utiliser gratuitement à votre gré, y compris pour tout usage commercial. Aucune attribution n'est demandée </q>. </p>
+				<p> Les icones utilisées viennent de flaticon.com, qui fournit des icones vectorielles pour un usage personnel ou commercial.</p>
 			</div>
 		</main>
 	</div>
@@ -131,7 +93,7 @@
 				<div class = "elt"> <p class="categorie">AIDE</p><br/>
 									<p>Questions fréquentes</p>
 									<a href="./informations.html"><p>Qui sommes-nous ?</p></a>
-									<a href="./details_techniques.html"><p>Détails techniques</p></a>
+									<a href="../index.html"><p>Détails techniques</p></a>
 				</div>
 			</div>
 			<div id="cgv">

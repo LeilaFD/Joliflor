@@ -61,6 +61,7 @@ a:visited{
 #ajout:hover {
   background-color: #009900;
   font-weight: bold;
+  text-align: center;
 }
 
 
@@ -77,6 +78,7 @@ a:visited{
   font-size: 200%;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 #appreciations h3 {
@@ -85,16 +87,92 @@ a:visited{
 
 #note{
   text-align: center;
-}
-
-#avis p{
   color: #CC0066;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 200%;
+  margin-top: 0px;
 }
 
-time {
+#time {
   font-style: italic;
   font-weight: normal;
   font-size: 50%;
+}
+
+/******************** responsive ********************/
+
+@media all and (max-width: 1788px){
+	#cont_body{
+		width: 75%;
+	}
+}
+@media all and (max-width: 1670px){
+	#cont_body{
+		width: 80%;
+	}
+}
+@media all and (max-width: 1566px){
+	#cont_body{
+		width: 85%;
+	}
+}
+@media all and (max-width: 1474px){
+	#cont_body{
+		width: 90%;
+	}
+}
+@media all and (max-width: 1392px){
+	#cont_body{
+		width: 95%;
+	}
+}
+@media all and (max-width: 1318px){
+	#cont_body{
+		width: 75%;
+	}
+
+	#cont_head .elt:nth-child(1){
+		flex: 5;
+	}
+	#cont_head .elt:nth-child(2){
+		flex: 1;
+	}
+}
+
+@media all and (max-width: 922px){
+	#cont_body{
+		width: 90%;
+		min-width: 320px;
+	}
+	#cont_head .elt:nth-child(1){
+		flex: 4;
+	}
+	#cont_head .elt:nth-child(2){
+		flex: 1;
+	}
+	#cont_nav{
+		flex-wrap: wrap;
+	}
+	#cont_foo{
+		min-width: 320px;
+	}
+  #produit{
+    flex-direction: column;
+  }
+  #nom_produit{
+    text-align: center;
+  }
+  #achat{
+    text-align: center;
+  }
+  #ajout{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 514px){
+	#avantages, #infos{
+		flex-wrap: wrap;
+	}
 }

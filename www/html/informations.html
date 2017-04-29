@@ -1,60 +1,126 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/style_marouane.css" />
-    <title>Qui sommes-nous</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/page_informations.css" />
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet"> <!-- police "Joliflor" -->
+    <title>Qui sommes nous ? </title>
   </head>
-  <body>
-    <!--HEADER-->
+	<body>
+	<div id = "cont_body">
+		<header>
+			<div id = "cont_head">
+		  		<div class = "elt"><a href="../index.html"> <span id="nom_enseigne">Joliflor</span></a> UN PAS <span id="jeu_mot">VERS</span> LA NATURE </div>
+		  		<div class = "elt"><img src="../src/images/avatar.png" alt="avatar" /><br/> Mon compte </div>
+		  		<a href="panier.html"><div class = "elt"><img src="../src/images/shop.png" alt="panier" /><br/> Mon panier </div></a>
+		  	</div>
+		</header>
+  </div>
+
+		<nav>
+		 	<div id = "cont_nav">
+		  		<a href="../index.html"><div class = "elt"> Plantes <br/> d'extérieur </div></a>
+		  		<a href="../index.html"><div class = "elt"> Terrasses <br/> &amp; Balcons </div></a>
+		  		<a href="../index.html"><div class = "elt"> Plantes <br/> d'intérieur </div></a>
+		  		<a href="../index.html"><div class = "elt"> Accessoires <br/> &amp; Décoration </div></a>
+		  		<a href="../index.html" id="promo"><div class = "elt"> Nos <br/> promotions </div></a>
+		  		<a href="../index.html"><div class = "elt"> Nos <br/> magasins </div></a>
+		  		<div class = "elt_form">
+		  			<form method = "post" action = "./Res_recherche.html">
+		  				<input type = "search" name="recherche" placeholder="Recherche" size=40 />
+		  				<input type="submit" value=""/>
+		  			</form>
+		  		</div>
+		  	</div>
+		</nav>
+
     <main id="qui_sommes_nous">
 
       <header id="intitule">
-        <h1>Qui sommes nous ?</h1>
+        <h2>Qui sommes nous ?</h2>
       </header>
-
-      <section id="leila">
+      <div id="contenu">
+        <div class="bloc_info">
         <figure>
-          <img src="../src/images/leila.jpeg" alt="Photo de Leïla Fallourd"/>
+          <img src="../src/images/avatar.png" alt="Photo de Leïla Fallourd"/>
           <figcaption>Leila Fallourd</figcaption>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum semper elit ac sollicitudin.
-                Ut molestie luctus enim, sit amet euismod nunc porta gravida. Vestibulum sed bibendum diam.
-                Maecenas et blandit diam, ac bibendum massa. Vestibulum ac massa est. Integer ut diam varius,
-                efficitur urna vel, laoreet felis. Aenean ornare laoreet mattis.
-          </p>
         </figure>
-      </section>
+        <p>Depuis sa tendre enfance, Leila a toujours été attirée par la faune et la flore. C'est lors d'études universitaires qu'elle s'est spécialisée dans la
+          botanique afin d'étudier les différens écosystèmes du continent européen. C'est lors d'une collaboration dans le cadre d'une thèse avec Marouane
+          que l'idée d'un plateforme de vente de produit botanique germa...
+        </p>
+        </div>
 
-      <section id="marouane">
+      <div class="bloc_info">
         <figure>
-          <img src="../src/images/marouane.jpeg" alt="Photo de Marouane Magtouf"/>
+          <img src="../src/images/avatar.png" alt="Photo de Marouane Magtouf"/>
           <figcaption>Marouane Magtouf</figcaption>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum semper elit ac sollicitudin.
-                Ut molestie luctus enim, sit amet euismod nunc porta gravida. Vestibulum sed bibendum diam.
-                Maecenas et blandit diam, ac bibendum massa. Vestibulum ac massa est. Integer ut diam varius,
-                efficitur urna vel, laoreet felis. Aenean ornare laoreet mattis.
-          </p>
         </figure>
-      </section>
+        <p>Globetrotteur et auto-didacte, Marouane a parcouru tout le continent américain afin d'y répertorier les espèces de plantes les plus rares.
+              Fervent protecteur des écosystèmes de la région amazonienne, il a créé avec Leila le site Joliflor afin de sensibiliser les clients sur l'importance
+              de la relation entre l'être humain et la flore.
+        </p>
+      </div>
 
-      <section id="objectifs">
+      <div class="bloc_info" >
+        <h2 id="valeurs">
+          Nos valeurs
+        </h2>
         <ul>
-          <li> Promouvoir la nature chez soi
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum semper elit ac sollicitudin.
-                       Ut molestie luctus enim, sit amet euismod nunc porta gravida. Vestibulum sed bibendum diam.
-                 </p></li>
-          <li> Proposer des tarifs compétitifs dans le respect des fournisseurs locaux
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum semper elit ac sollicitudin.
-                       Ut molestie luctus enim, sit amet euismod nunc porta gravida. Vestibulum sed bibendum diam.
-                 </p></li>
-          <li> Respect des principes du développement durable
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum semper elit ac sollicitudin.
-                       Ut molestie luctus enim, sit amet euismod nunc porta gravida. Vestibulum sed bibendum diam.
-                 </p></li>
+          <li> Promouvoir la nature chez soi</li>
+          <li> Proposer des tarifs compétitifs dans le respect des fournisseurs locaux</li>
+          <li> Respect les principes du développement durable></li>
         </ul>
-      </section>
+        <p id="nous_contacter">
+          N'hésitez pas à nous contacter.
+        </p>
+      </div>
+  </div>
+  </main>
 
-    </main>
-    <!--FOOTER-->
-  </body>
-</html>
+    <footer>
+      <div id = "cont_foo">
+        <div id="avantages">
+          <div class = "elt"><img src="../src/images/plant.png" alt="plante" /><br/> 5000 PLANTES<br/> en direct des producteurs </div>
+          <div class = "elt"><img src="../src/images/guarantee.png" alt="garantie" /><br/> VOS PLANTES GARANTIES<br/> 1 an </div>
+          <div class = "elt"><img src="../src/images/fresh.png" alt="emballage" /><br/> EMBALLAGE FRAICHEUR<br/> pour chaque article </div>
+          <div class = "elt"><img src="../src/images/card.png" alt="paiement" /><br/> PAIEMENT SÉCURISÉ<br/> 3x sans frais </div>
+          <div class = "elt"><img src="../src/images/delivery.png" alt="livraison" /><br/> LIVRAISON OFFERTE<br/> à partir de 300€ </div>
+        </div>
+        <div id="infos">
+          <div class = "elt"> <p class="categorie">SERVICES JOLIFLOR</p><br/>
+                    <p>Moyens de paiement</p>
+                    <p>Modes de livraison</p>
+                    <p>Vos garanties</p>
+          </div>
+          <div class = "elt"> <p class="categorie">SERVICE CLIENT</p><br/>
+                    <p><img src="../src/images/support.png" alt="support" />
+                    Service client gratuit<br/>
+                    0800 001 002<br/>
+                    Lun-Sam 8h-19h
+                    </p>
+
+                    <p><img src="../src/images/mail.png" alt="mail" />Contactez-nous</p>
+          </div>
+          <div class = "elt"> <p class="categorie">AIDE</p><br/>
+                    <p>Questions fréquentes</p>
+                    <a href="informations.html"><p>Qui sommes-nous ?</p></a>
+                    <a href="../index.html"><p>Détails techniques</p></a>
+          </div>
+        </div>
+        <div id="cgv">
+          <div class = "elt"> Mentions légales | Protection des données |CGV  </div>
+          <div class = "elt"> Retrouvez-nous sur :<br/><br/>
+                    <img src="../src/images/facebook.png" alt="facebook" />
+                    <img src="../src/images/twitter.png" alt="twitter" />
+                    <img src="../src/images/google.png" alt="google" />
+                    <img src="../src/images/pinterest.png" alt="pinterest" />
+                    <img src="../src/images/instagram.png" alt="instagram" />
+
+          </div>
+        </div>
+      </div>
+    </footer>
+    </body>
+    </html>

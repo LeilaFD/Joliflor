@@ -36,44 +36,41 @@
 		</nav>
 
     <div id="retour_achats">
-      <a href="../index.html">< Continuer mes achats</a>
+      <a href="../index.html">Continuer mes achats</a>
     </div>
 
-    <main id="panier">
+    <div id="panier">
 
-      <section id="intitule">
+      <div id="intitule">
         <div class="legende"></div>
         <div class="legende"></div>
         <div class="legende">Quantité</div>
         <div class="legende">Prix</div>
-      </section>
+      </div>
 
-      <section id="designation">
+      <div id="designation">
         <div class="case">
               <figure>
                 <img src="../src/images/menthe_produit_2.png" alt="Produit acheté" width="150" />
               </figure></div>
         <div class="case" id="nom_article_achat">
-          <h3><div id="nom_article">Menthe verte</div></h3>
+          <div id="nom_article"><h3>Menthe verte</h3></div>
           <div id="nom_latin_article">Mentha spicata</div>
           <a href="panier_vide.html" id="vider_panier">Retirer du panier</a></div>
         <div class="case">
-          <select id="quantite_achat">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
+            <form action="/achat.php">
+              <input type="number" name="quantite" min="1" max="5">
+            </form>
         </div>
         <div class="case" id="prix">
           29€
         </div>
-      </section>
+      </div>
 
-      <section id="information_achat">
+
+      <div id="information_achat">
         <div class="detail_achat">
-          <p>Livraison gratuite <em class="tabulation" id="type_envoi">Envoi Colissimo</em></p></td>
+          <p>Livraison gratuite <em class="tabulation" id="type_envoi">Envoi Colissimo</em></p>
         </div>
         <div class="detail_achat">
           <p>Prix total <em class="tabulation" id="montant">29€</em></p>
@@ -84,9 +81,10 @@
         <div class="detail_achat" id="validation">
           <p><a href="../index.html">Confirmer la commande</a></p>
         </div>
-      </section>
+      </div>
+    </div>
 
-	<footer>
+  <footer>
 		<div id = "cont_foo">
 			<div id="avantages">
 				<div class = "elt"><img src="../src/images/plant.png" alt="plante" /><br/> 5000 PLANTES<br/> en direct des producteurs </div>

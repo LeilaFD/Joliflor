@@ -1,0 +1,23 @@
+/********************Page informations.html********************/
+
+#contenu {
+  display: flex;
+  margin-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 70px;
+  flex-direction: column;
+}
+
+#intitule, #valeurs {
+  color: #009900;
+  font-size: 200%;
+  text-align: center;
+}
+
+#nous_contacter {
+  margin-top: 10%;
+  color: #CC0066;
+  font-size: 200%;
+  text-align: center;
+}

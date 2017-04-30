@@ -4,9 +4,9 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/layout.css"/>
-    <link rel="stylesheet" href="../css/panier.css"/>
+    <link rel="stylesheet" href="../css/qui_sommes_nous.css"/>
     <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet"> <!-- police "Joliflor" -->
-    <title> Mon panier </title>
+    <title> Qui sommes-nous ? </title>
   </head>
   <body>
   <div id = "cont_body">
@@ -37,61 +37,44 @@
 
     <main>
       <div id = "cont_main">
-        <div id="entete">
-          <div><h1> Mon panier </h1></div>
-          <a href="./resultats_recherche.html"><div class="continuer"> <p> Continuer mes achats </p> </div></a>
+        <h1> Qui sommes-nous ? </h1>
+        <h2> La naissance de Joliflor : </h2>
+        <div>
+          <p>Joliflor sélectionne et vous propose des plantes pour votre jardin au meilleur prix en établissant des partenariats avec les meilleurs pépiniéristes français et autrichiens produisant des plantes de grande qualité.</p>
+
+          <p>Joliflor a été fondé en 2010 par Leïla Fallourd et Marouane Magtouf.<br/>
+          C'est lors d'une thèse commune au cours de leurs études qu'ils constatent la densification du marché immobilier français et la multiplication des lotissements imposants des jardins de petites tailles. Les particuliers ont également grand besoin de conseils et de produits adaptés.</p>
+          <p>Ils décident alors de créer Joliflor, un site de vente en ligne qui aura 3 objectifs principaux :</p>
+          <ul>
+            <li> Promouvoir la nature chez soi</li>
+            <li> Proposer des tarifs compétitifs dans le respect des fournisseurs locaux</li>
+            <li> Respecter les principes du développement durable</li>
+          </ul>
         </div>
 
-        <div id="liste">
+        <h2> Ses créateurs : </h2>
+        <div id="createurs">
+          <div><figure><img src="../src/images/Leila.png" alt="Photo de Leila Fallourd"/></figure></div>
           <div>
-            <div><h2> PRODUIT </h2></div>
-            <div class="designation">
-              <div><img src="../src/images/menthe_mini.png" alt="menthe"/></div>
-              <div>
-                <h3> MENTHE VERTE </h3>
-                <p class="stock"> en stock </p>
-                <p> Type de pot : céramique </p>
-              </div>
-            </div>
+            <h3>Leïla Fallourd</h3>
+            <p> Depuis sa tendre enfance, Leïla a toujours été attirée par la faune et la flore.<br/>
+            Pour ses études universitaires elle se spécialise dans la botanique afin d'étudier les différents écosystèmes du continent européen. 
+            </p>
           </div>
+          <div><figure><img src="../src/images/Marouane.png" alt="Photo de Marouane Magtouf"/></figure></div>
+          <div>
+            <h3>Marouane Magtouf</h3>
+            <p> Globetrotteur et auto-didacte, Marouane a parcouru tout le continent américain afin d'y répertorier les espèces de plantes les plus rares.<br/>
+            Fervent protecteur des écosystèmes de la région amazonienne, il tient à sensibiliser les citoyens sur l'importance de la relation entre l'être humain et la nature.</p>
+          </div>
+        
 
-          <div>
-            <div><h2> PU </h2></div>
-            <div class="pu"><p> 29€ </p></div>
-          </div>
-
-          <div>
-            <div><h2> QUANTITE </h2></div>
-            <div><input type="number" name="qte" min="1" max="20" step="1" /></div>
-            <div class="supprimer"><img src="../src/images/garbage.png" alt="menthe"/> Supprimer </div>
-          </div>
-
-          <div>
-            <div><h2 class="prix_ttc"> PRIX TTC </h2></div>
-            <div class="ttc">29€</div>
-          </div>
         </div>
 
-        <div id="recap">
-          <div>
-            <h2> RECAPITULATIF </h2>
-          </div>
-          <div>
-            <div><h3>Sous-total</h3></div>
-            <div><p>29€</p></div>
-          </div>
-          <div>
-            <div><h3>Livraison</h3></div>
-            <div class="offerte"><p>offerte</p></div>
-          </div>
-          <div>
-            <div><h3>TOTAL</h3></div>
-            <div class="total"><p>29€</p></div>
-          </div>
-          <div class="commander">
-            <h2> COMMANDER </h2>
-          </div>
-        </div>
+
+
+        
+
       </div>
     </main>
   </div>
